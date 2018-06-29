@@ -1,0 +1,16 @@
+.btn{
+    background: transparent;
+    color: #fff;
+    padding: 0;
+}
+.user-view{
+    height: 85vh;
+    background: #efefef;
+}
+.table-height{
+    height: 70vh;
+    overflow: scroll;
+}
+.bg-white{
+    background-color: #fff;
+}

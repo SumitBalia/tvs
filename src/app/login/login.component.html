@@ -1,0 +1,20 @@
+<div class="container-fluid login">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12">
+        <div class="card w-50 mx-auto">
+            <div class="card-body">
+                <h3 class="mb-3 text-center">LogIn</h3>
+                <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+                    <input type="text" class="form-control mb-3" name="userName" placeholder="Enter Name" ngModel #userName="ngModel" required>
+                    <input type="password" class="form-control mb-3" name="password" placeholder="Enter Password" ngModel #password="ngModel" required>
+                    <input type="submit" class="btn float-right" value="Login">
+                  </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
