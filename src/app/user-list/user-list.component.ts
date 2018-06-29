@@ -11,6 +11,7 @@ export class UserListComponent implements OnInit {
   users:any;
   chart: Chart;
   cityName = [];
+  filter:any;
   constructor(private userloginservice: UserloginService, private route: Router) { }
   key: string = 'name'; //set default
   reverse: boolean = false;
